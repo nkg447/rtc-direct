@@ -1,0 +1,27 @@
+{
+  "name": "rtc-direct",
+  "version": "0.1.0",
+  "description": "P2P file transfer over WebRTC — like croc, powered by signallite",
+  "type": "module",
+  "bin": {
+    "rtc-direct": "./bin/rtc-direct.js"
+  },
+  "scripts": {
+    "start": "node bin/rtc-direct.js"
+  },
+  "dependencies": {
+    "@nkg447/signallite": "file:../signallite",
+    "cli-progress": "^3.12.0",
+    "commander": "^12.0.0",
+    "node-datachannel": "^0.25.0",
+    "socket.io-client": "^4.8.1"
+  },
+  "keywords": [
+    "file-transfer",
+    "webrtc",
+    "p2p",
+    "cli"
+  ],
+  "author": "Nikunj Gupta",
+  "license": "MIT"
+}
