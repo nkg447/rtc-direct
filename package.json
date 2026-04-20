@@ -10,7 +10,7 @@
     "start": "node bin/rtc-direct.js"
   },
   "dependencies": {
-    "@nkg447/signallite": "file:../signallite",
+    "@nkg447/signallite": "^0.2.0",
     "cli-progress": "^3.12.0",
     "commander": "^12.0.0",
     "node-datachannel": "^0.25.0",
